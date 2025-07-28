@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Idleon Вики</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans flex">
+
+  <aside class="w-64 h-screen bg-gray-900 border-r border-gray-800 p-4 overflow-y-auto hidden md:block sticky top-0">
+    <h2 class="text-xl font-bold text-yellow-400 mb-4">📁 Навигация</h2>
+    <ul class="space-y-2 text-sm">
+      <li>
+  <details class="group">
+    <summary class="flex justify-between items-center cursor-pointer px-1 py-1 rounded hover:bg-gray-800">
+      <a href="/Chars/Main_class.html" class="text-gray-300 hover:text-white flex-1">Chars</a>
+      <span onclick="event.stopPropagation()" class="ml-2 text-gray-400 hover:text-white transition-transform group-open:rotate-90">▶</span>
+    </summary>
+
+    <ul class="pl-4 mt-1 space-y-1 text-gray-400 group-open:block hidden">
+      <!-- Arch -->
+      <li>
+        <details class="group">
+          <summary class="flex justify-between items-center cursor-pointer px-1 py-1 rounded hover:bg-gray-800">
+            <a href="/Skills/Chars/Arch/index.html" class="text-gray-300 hover:text-white flex-1">Arch</a>
+            <span onclick="event.stopPropagation()" class="ml-2 text-gray-400 hover:text-white transition-transform group-open:rotate-90">▶</span>
+          </summary>
+
+          <!-- Подклассы Arch -->
+          <ul class="pl-4 mt-1 space-y-1 text-gray-400 group-open:block hidden">
+            <li><a href="/Chars/Arch/Archer.html" class="hover:text-white">Archer</a></li>
+            <li><a href="/Chars/Arch/Hunter.html" class="hover:text-white">Hunter</a></li>
+            <li><a href="/Chars/Arch/BM.html" class="hover:text-white">Beast Master</a></li>
+            <li><a href="/Chars/Arch/SB.html" class="hover:text-white">Siege Breaker</a></li>
+             <li><a href="/Chars/Arch/Bowman.html" class="hover:text-white">Bowman</a></li>
+            <li><a href="/Chars/Arch/WindWalker.html" class="hover:text-white">WindWalker</a></li>
+          </ul>
+        </details>
+      </li>
+
+      <!-- Mag -->
+      <li><a href="/Skills/Chars/Mag/index.html" class="hover:text-white">Mag</a></li>
+
+      <!-- War -->
+      <li><a href="/Skills/Chars/War/index.html" class="hover:text-white">War</a></li>
+    </ul>
+  </details>
+</li>
+            <li>
+              <details class="group">
+                <summary class="cursor-pointer text-gray-300 hover:text-white">World</summary>
+                <ul class="pl-4 mt-1 space-y-1">
+                  <li><a href="/Skills/World/W1/index.html" class="hover:text-white">W1</a></li>
+                  <li><a href="/Skills/World/W2/index.html" class="hover:text-white">W2</a></li>
+                  <li><a href="/Skills/World/W3/index.html" class="hover:text-white">W3</a></li>
+                  <li><a href="/Skills/World/W4/index.html" class="hover:text-white">W4</a></li>
+                  <li><a href="/Skills/World/W5/index.html" class="hover:text-white">W5</a></li>
+                  <li><a href="/Skills/World/W6/index.html" class="hover:text-white">W6</a></li>
+                  <li><a href="/Skills/World/W7/index.html" class="hover:text-white">W7</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </details>
+      </li>
+
+      <li>
+        <details class="group">
+          <summary class="cursor-pointer text-blue-300 hover:text-white">🗺 World</summary>
+          <ul class="pl-4 mt-1 space-y-1 text-gray-400 group-open:block hidden">
+            <li><a href="/World/W1/index.html" class="hover:text-white">W1</a></li>
+            <li><a href="/World/W2/index.html" class="hover:text-white">W2</a></li>
+            <li><a href="/World/W3/index.html" class="hover:text-white">W3</a></li>
+            <li><a href="/World/W4/index.html" class="hover:text-white">W4</a></li>
+            <li><a href="/World/W5/index.html" class="hover:text-white">W5</a></li>
+            <li><a href="/World/W6/index.html" class="hover:text-white">W6</a></li>
+            <li><a href="/World/W7/index.html" class="hover:text-white">W7</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </aside>
+
+  <header class="text-center py-10 border-b border-gray-800">
+    <h1 class="text-5xl font-bold text-yellow-400 tracking-tight">Legends of Idleon Вики</h1>
+    <p class="text-gray-400 mt-2">Полезные материалы, гайды и справочник для идлеонщиков</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <nav class="grid sm:grid-cols-2 gap-6">
+
+      <a href="\Chars\Main_class.html" class="bg-gray-800 hover:bg-gray-700 transition p-5 rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold text-purple-300">🎯 Классы</h2>
+        <p class="text-gray-400 text-sm mt-1">Пути развития, таланты и билды</p>
+      </a>
+
+      <a href="quests.html" class="bg-gray-800 hover:bg-gray-700 transition p-5 rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold text-blue-300">🗺️ Миры</h2>
+        <p class="text-gray-400 text-sm mt-1">Миры. Особенности. Секреты.</p>
+      </a>
+
+      <a href="skills.html" class="bg-gray-800 hover:bg-gray-700 transition p-5 rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold text-green-300">🛠 Навыки</h2>
+        <p class="text-gray-400 text-sm mt-1">Добыча, алхимия, крафт, варка еды и прочее</p>
+      </a>
+
+      <a href="bosses.html" class="bg-gray-800 hover:bg-gray-700 transition p-5 rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold text-red-300">💀 Фарм и гринд</h2>
+        <p class="text-gray-400 text-sm mt-1">Механики и награды</p>
+      </a>
+
+      <a href="alchemy.html" class="bg-gray-800 hover:bg-gray-700 transition p-5 rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold text-yellow-300">⚗️ Полезности</h2>
+        <p class="text-gray-400 text-sm mt-1">Получения максимальной эффективности</p>
+      </a>
+
+      <a href="cards.html" class="bg-gray-800 hover:bg-gray-700 transition p-5 rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold text-pink-300">🃏 Секреты </h2>
+        <p class="text-gray-400 text-sm mt-1">Сбор, бонусы</p>
+      </a>
+
+    </nav>
+  </main>
+
+  <footer class="text-center text-gray-600 text-sm py-6 border-t border-gray-800">
+    © 2025 Legends of Idleon Вики. Фан-проект, сделанный с ❤️.
+  </footer>
+
+</body>
+</html>
